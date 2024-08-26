@@ -1,0 +1,12 @@
+[user]
+	name = Brian Norman
+	email = brian@bnorm.com
+[color]
+	ui = auto
+[merge]
+	renameLimit = 999999
+[diff]
+	renameLimit = 999999
+[core]
+	excludesFile = ~/.gitignore
+	editor = vim
