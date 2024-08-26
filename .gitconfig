@@ -1,0 +1,15 @@
+[user]
+	name = Brian Norman
+	email = brian.norman@jetbrains.com
+[color]
+	ui = auto
+[merge]
+	renameLimit = 999999
+[diff]
+	renameLimit = 999999
+[core]
+	excludesFile = ~/.gitignore
+	editor = vim
+[alias]
+	green = "!git fetch origin master; git rebase --autostash $(curl -Ls https://kotl.in/green-dev-kotlin-aggregate) #"
+	files = "!git diff --name-status \"$1\"^ \"$1\" #"
